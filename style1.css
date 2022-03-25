@@ -1,16 +1,16 @@
-.background-color {
-    background-color: lightblue;
-    height: 1000px;
-
+body { /* Text body */
+    display: block;
+    background-color: skyblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: ghostwhite;
+    font-family: "American Typewriter";
 }
 .background-image {
     background-image: url("space.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
     height: 200px;
-
 }
-
 h1 {
     font-family: "American Typewriter";
     font-size: 100px;
@@ -60,4 +60,3 @@ image { /* Planet images */
     padding: 10px;
     text-align: right;
 }
-4
