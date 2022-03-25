@@ -1,0 +1,63 @@
+.background-color {
+    background-color: lightblue;
+    height: 1000px;
+
+}
+.background-image {
+    background-image: url("space.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+
+}
+
+h1 {
+    font-family: "American Typewriter";
+    font-size: 100px;
+    color: whitesmoke;
+    text-align: center;
+}
+/* PLANET IMAGES STYLING */
+.planetImageRow {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.planetImageColumn {
+    display: inline-block; /* Display images side-by-side */
+}
+image { /* Planet images */
+    width: 5px;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/* TABLE STYLING */
+#blank {
+    border-style: none;
+}
+.planetTable {
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.planetData {
+    padding: 10px;
+    text-align: center;
+}
+/* Planet names in table */
+.planets {
+    border-style: groove;
+    border-width: 2px;
+    padding: 5px;
+    text-align: center;
+}
+/* Planet category description */
+.planetCatg {
+    border-style: groove;
+    border-width: 2px;
+    padding: 10px;
+    text-align: right;
+}
+4
